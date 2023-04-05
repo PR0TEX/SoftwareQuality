@@ -4,7 +4,7 @@ from numpy.matlib import empty
 from numpy.testing import assert_
 
 class Test(unittest.TestCase):
-    def test_empty():
+    def test_empty(self):
         x = empty((5,))
         assert_(isinstance(x, matrix))
         assert_(x.shape, (1, 5))

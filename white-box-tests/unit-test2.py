@@ -4,7 +4,7 @@ from numpy.matlib import zeros
 from numpy.testing import assert_array_equal
 
 class Test(unittest.TestCase):
-    def test_zeros():
+    def test_zeros(self):
         assert_array_equal(zeros((5, 3)),
                         matrix([[ 0.,  0.,  0.],
                                     [ 0.,  0.,  0.],
